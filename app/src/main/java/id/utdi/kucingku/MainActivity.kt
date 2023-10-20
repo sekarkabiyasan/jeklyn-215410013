@@ -47,7 +47,7 @@ fun ArtGalleryApp() {
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // Tampilkan gambar dan judul seni tanpa deskripsi
+        // Tampilkan gambar dan judul seni tanpa deskripsii
         ArtPieceWithoutDescription(selectedArtPiece)
 
         Spacer(modifier = Modifier.height(24.dp))
